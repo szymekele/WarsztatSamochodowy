@@ -1,0 +1,40 @@
+## Visual Studio / .NET .gitignore
+.vs/
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.dbmdl
+*.jfm
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# SQL Server files created at runtime in bin/
+bin/Debug/*.mdf
+bin/Debug/*.ldf
+bin/Release/*.mdf
+bin/Release/*.ldf
+
+# Visual Studio temporary files
+*.tmp
+*.log
+*.cache
+*.tlog
+
+# Windows Desktop
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
